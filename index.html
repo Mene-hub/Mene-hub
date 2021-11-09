@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mene-hub | Home</title>
+        <link rel="icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta property="og:title" content="Mene-hub">
+        <meta property="og:image" content="http://claudio.menegotto.unaux.com/assets/images/avatar.jpeg">
+
+        <link rel="stylesheet" type="text/css" href="assets/Style/css.css">
+    </head>
+    <body onload="hubload();">
+        <div id="mousePointer" style="display: none;"></div>
+        <nav class="mainNav">
+            <span id="navLeftTitle"><a onclick="scrolltoid('home');" class="navLink" style="color:white; position:fixed;">Mene-hub</a></span>
+            <span><a href="mailto:menegotto.claudio@gmail.com" class="navLink" style="color:white;">contact</a></span>
+            <span><a onclick="scrolltoid('about');" class="navLink" style="color:white;">about</a></span>
+            <span><a onclick="scrolltoid('projects');" class="navLink" style="color:white;">portfolio</a></span>
+            <span><a href="./repos/" class="navLink" style="color:white;">repositories</a></span>
+        </nav>
+        <div class="screen-hub" id="home">
+            <b class="MainTitle">Mene-Hub</b>
+            <p class="cxP">Claudio Menegotto</p>
+            <p class="cxP">Desktop and Web Developer</p>
+        </div>
+        <section class="who-am-i bg-dark bg-menehub" id="about">
+            <div class="description">
+                <p class="Roboto300">who am i?</p>
+                <p class="Roboto200">Hi, my name is Claudio, i’m 20 years old.</p>
+                <p class="Roboto200">I studied IT for 5 years at school, and now</p>
+                <p class="Roboto200">i’m studing it also at university</p>
+                <img src="assets/images/avatar.jpeg" class="imgProfile" />
+            </div>
+        </section>
+        <section class="bg-image" id="projects">
+            <div class="repositories">
+                <p class="Roboto300" style="font-size: 200%;">portfolio</p>
+                <div class="repoContainer">
+                    <div class="repoRow">
+                        <div class='repo'> 
+                            <img src='./assets/images/repoheader.png' class='repoheader'>
+                            <div onclick="window.open('https:\/\/github.com\/Mene-hub\/Mene-hub');" class='repoinfo' style="background-image: url(./assets/images/projects/Mene-hub.png);">
+                            </div>
+                        </div>
+                        <div class='repo'> 
+                            <img src='./assets/images/repoheader.png' class='repoheader'>
+                            <div onclick="window.open('https:\/\/github.com\/Mene-hub\/From-pic-to-text');" class='repoinfo' style="background-image: url(./assets/images/projects/FPTT.png);">
+                            </div>
+                        </div>
+                        <div class='repo'> 
+                            <img src='./assets/images/repoheader.png' class='repoheader'>
+                            <div onclick="window.open('https:\/\/github.com\/Mene-hub\/Minimal-clock-animated-background');" class='repoinfo' style="background-image: url(./assets/images/projects/Minimal\ animated\ background\ clock.png);">
+                            </div>
+                        </div>
+                        <div class='repo'> 
+                            <img src='./assets/images/repoheader.png' class='repoheader'>
+                            <div onclick="window.open('https:\/\/github.com\/Mene-hub\/CentroVaccini_UNI_Project');" class='repoinfo' style="background-image: url(./assets/images/projects/Vaccinazioni\ OperatorView.png);">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repoRow">
+                        <div class='midRepo'> 
+                            <img src='./assets/images/repoheader.png' class='repoheader'>
+                            <div onclick="window.open('https:\/\/github.com\/Mene-hub');" class='repoinfo' style="background-image: url(./assets/images/gitHubLogo.png);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills bg-dark">
+            <div class="skills-container"></div>
+        </section>
+        <!--imposrting script-->
+        <script src="./assets/script/script.js"></script>
+        <script src="./assets/script/gitQuery.js"></script>
+    </body>
+</html>
