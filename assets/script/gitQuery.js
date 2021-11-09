@@ -21,7 +21,8 @@ function gitConnection(){
 			var template;
             for(var i = 0; i<GitRepose.length; i++)
 			{
-				template ="<div class='repoli'><a href='" + GitRepose[i].html_url + "' class='Roboto400 glowLink' style='font-size: 200%;'>" + GitRepose[i].name + "</a><p class='Roboto300' style='font-size: 100%;'>" + GitRepose[i].description + "</p>";
+				var desc = GitRepose[i].description == null ? "there isn't any description" : GitRepose[i].description;
+				template ="<div class='repoli'><a href='" + GitRepose[i].html_url + "' class='Roboto400 glowLink' style='font-size: 200%;'>" + GitRepose[i].name.toLowerCase() + "</a><p style='font-size: 100%;font-family:Cascadia;'>" + desc + "</p>";
 				var tmp = document.getElementById("repoHere");
 				tmp.innerHTML += template;
 			}

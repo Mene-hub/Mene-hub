@@ -244,5 +244,11 @@ p{
 }
 
 .glowLink:hover{
-    text-shadow: 0 0 30px #fff;
+    text-shadow: 0 0 10px #fff;
+}
+
+.skillsimg{
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
 }
