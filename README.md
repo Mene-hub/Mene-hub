@@ -10,7 +10,7 @@ My work style is based on usefull programs for quotidianity and self challenging
 
 - ****[MaterialMessageBox](https://github.com/Mene-hub/MaterialMessageBox)****
 - ****[SavePaper](https://github.com/Mene-hub/SavePaper)****
-- ****[Twitch Points Grabber](https://github.com/Mene-hub/TwitchPointGrabberBot)****
+- ****[Twitch Points Grabber](https://github.com/Mene-hub/Twitch-Points-Grabber)****
 - ****[GIT_COMMIT_BOT](https://github.com/Mene-hub/GIT_COMMIT_BOT)****
 - ****[Minimal-clock-animated-background](https://github.com/Mene-hub/Minimal-clock-animated-background)****
 - ****[MeneBox](https://github.com/Mene-hub/MeneBox)****
