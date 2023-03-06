@@ -4,7 +4,7 @@ Hi, i’m Claudio, 20 years old
 
 Currently studing at `Insubria University` in Varese (IT)
 
-My work style is based on usefull programs for quotidianity and self challenging
+My work style is based on useful programs for quotidianity and self challenging
 
 **some quotidianity example:**
 
